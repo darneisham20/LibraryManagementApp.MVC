@@ -18645,6 +18645,11 @@
   "RootNamespace": "LibraryManagementApp.MVC",
   "Documents": [
     {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Authors\\Index.cshtml",
+      "TargetPath": "Views\\Authors\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -18655,13 +18660,53 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Authors\\Delete.cshtml",
+      "TargetPath": "Views\\Authors\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Authors\\Edit.cshtml",
+      "TargetPath": "Views\\Authors\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Books\\Create.cshtml",
+      "TargetPath": "Views\\Books\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Authors\\Create.cshtml",
+      "TargetPath": "Views\\Authors\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Publishers\\Delete.cshtml",
+      "TargetPath": "Views\\Publishers\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Books\\Details.cshtml",
+      "TargetPath": "Views\\Books\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Publishers\\Details.cshtml",
+      "TargetPath": "Views\\Publishers\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Publishers\\Create.cshtml",
+      "TargetPath": "Views\\Publishers\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18672,6 +18717,36 @@
     {
       "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Publishers\\Index.cshtml",
+      "TargetPath": "Views\\Publishers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Authors\\Details.cshtml",
+      "TargetPath": "Views\\Authors\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Books\\Delete.cshtml",
+      "TargetPath": "Views\\Books\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Books\\Index.cshtml",
+      "TargetPath": "Views\\Books\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Publishers\\Edit.cshtml",
+      "TargetPath": "Views\\Publishers\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Books\\Edit.cshtml",
+      "TargetPath": "Views\\Books\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
