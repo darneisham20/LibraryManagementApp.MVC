@@ -7,7 +7,7 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-success" asp-action="Create">Add Author</a>
 </p>
 <table class="table">
     <thead>
@@ -43,11 +43,45 @@
                 @Html.DisplayFor(modelItem => item.BookTotal)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                <button data-id="@item.Id" class="btn btn-danger deleteBtn" type="button">Delete</button>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+<form asp-action="Delete" id="authorDeleteForm">
+    <input type="hidden" id="authorid" name="Id" />
+</form>
+
+@section Scripts {
+    <script>
+        $(function() {
+            $('.deleteBtn').click(function(e){
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                    }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire(
+                        'Deleted!',
+                        'Author has been deleted.',
+                        'success'
+                        )
+                        var btn = $(this);
+                        var id = btn.data("id");
+                        $('#authorid').val(id);
+                        $('#authorDeleteForm').submit();
+                    }
+                })
+            })
+        })
+    </script>
+}

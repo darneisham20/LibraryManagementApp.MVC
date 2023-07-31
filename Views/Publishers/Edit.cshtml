@@ -18,30 +18,31 @@
                 <input asp-for="Company" class="form-control" />
                 <span asp-validation-for="Company" class="text-danger"></span>
             </div>
+            <br>
             <div class="form-group">
                 <label asp-for="Location" class="control-label"></label>
                 <input asp-for="Location" class="form-control" />
                 <span asp-validation-for="Location" class="text-danger"></span>
             </div>
+            <br>
             <div class="form-group">
                 <label asp-for="Founded" class="control-label"></label>
                 <input asp-for="Founded" class="form-control" />
                 <span asp-validation-for="Founded" class="text-danger"></span>
             </div>
+            <br>
             <div class="form-group">
                 <label asp-for="Genres" class="control-label"></label>
                 <input asp-for="Genres" class="form-control" />
                 <span asp-validation-for="Genres" class="text-danger"></span>
             </div>
+            <br>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
+                <a class="btn btn-secondary" asp-action="Index">Back to List</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
