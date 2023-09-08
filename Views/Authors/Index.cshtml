@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Authors</h1>
 
 <p>
     <a class="btn btn-success" asp-action="Create">Add Author</a>
@@ -59,6 +59,8 @@
 @section Scripts {
     <script>
         $(function() {
+            $('.table').DataTable();
+
             $('.deleteBtn').click(function(e){
                 Swal.fire({
                     title: 'Are you sure?',
