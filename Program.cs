@@ -1,3 +1,4 @@
+using Auth0.AspNetCore.Authentication;
 using LibraryManagementApp.MVC.Data;
 using Microsoft.EntityFrameworkCore;
 

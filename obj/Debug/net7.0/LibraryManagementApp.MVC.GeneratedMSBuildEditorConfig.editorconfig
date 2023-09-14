@@ -9,101 +9,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryManagementApp.MVC
 build_property.RootNamespace = LibraryManagementApp.MVC
-build_property.ProjectDir = d:\DMProjects\Personal_Projects\LibraryManagementApp.MVC\
+build_property.ProjectDir = D:\DMProjects\Personal_Projects\LibraryManagementApp.MVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\DMProjects\Personal_Projects\LibraryManagementApp.MVC
+build_property.MSBuildProjectDirectory = D:\DMProjects\Personal_Projects\LibraryManagementApp.MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Create.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Delete.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Details.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Edit.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Index.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Authors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Create.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Delete.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Details.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Edit.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Index.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Home/About.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Home/Index.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Home/Privacy.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Create.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Delete.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Details.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Edit.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Index.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Publishers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Shared/Error.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/_ViewImports.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/_ViewStart.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Shared/_Layout.cshtml]
+[D:/DMProjects/Personal_Projects/LibraryManagementApp.MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kvv6aqphjs

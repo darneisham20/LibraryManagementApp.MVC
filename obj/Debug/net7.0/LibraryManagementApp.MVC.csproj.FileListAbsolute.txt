@@ -251,3 +251,5 @@ D:\DMProjects\Personal_Projects\LibraryManagementApp.MVC\bin\Debug\net7.0\runtim
 D:\DMProjects\Personal_Projects\LibraryManagementApp.MVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\DMProjects\Personal_Projects\LibraryManagementApp.MVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\DMProjects\Personal_Projects\LibraryManagementApp.MVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\DMProjects\Personal_Projects\LibraryManagementApp.MVC\bin\Debug\net7.0\Auth0.AspNetCore.Authentication.dll
+D:\DMProjects\Personal_Projects\LibraryManagementApp.MVC\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

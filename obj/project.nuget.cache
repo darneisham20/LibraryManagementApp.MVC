@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XP3hZ6iyPHsE/I/hctGI8DJb/3uNVKabM6/y0J8H1Tyn3e0Yjp7rKNY3gpN2l3Q77bmmAa6OzJ/ZutZDolsXMQ==",
+  "dgSpecHash": "KNqekc0hLTHhuuvRfWRBLSQnEln3/ZPzLpd0CglKK4TMPk0uaExI+iuV+cFnxuiMzBa5WHPv04FbbcgM1K7mZA==",
   "success": true,
   "projectFilePath": "D:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\LibraryManagementApp.MVC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Neisha\\.nuget\\packages\\auth0.aspnetcore.authentication\\1.3.1\\auth0.aspnetcore.authentication.1.3.1.nupkg.sha512",
     "C:\\Users\\Neisha\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Neisha\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Neisha\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
@@ -56,6 +57,7 @@
     "C:\\Users\\Neisha\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\Neisha\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\Neisha\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\Neisha\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\7.0.9\\microsoft.aspnetcore.authentication.openidconnect.7.0.9.nupkg.sha512",
     "C:\\Users\\Neisha\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\Neisha\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Neisha\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",

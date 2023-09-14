@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LibraryManagementApp.MVC.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LibraryManagementApp.MVC.Controllers
 {
@@ -21,9 +22,9 @@ namespace LibraryManagementApp.MVC.Controllers
         // GET: Authors
         public async Task<IActionResult> Index()
         {
-              return _context.Authors != null ? 
-                          View(await _context.Authors.ToListAsync()) :
-                          Problem("Entity set 'LibraryManagementDbContext.Authors'  is null.");
+            return _context.Authors != null ? 
+                View(await _context.Authors.ToListAsync()) :
+                Problem("Entity set 'LibraryManagementDbContext.Authors'  is null.");
         }
 
         // GET: Authors/Details/5

@@ -12,6 +12,7 @@
 - Azure Data Studio
 - Docker
 - Visual Studio Code
+- [DataTables](https://datatables.net/examples/styling/bootstrap5.html)
 
 ## Live Demo
 
