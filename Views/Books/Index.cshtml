@@ -49,9 +49,11 @@
                 @Html.DisplayFor(modelItem => item.Genres)
             </td>
             <td>
-                <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Details</a>
-                <button data-id="@item.Id" class="btn btn-danger deleteBtn" type="button">Delete</button>
+                <div class="d-grid gap-2 ">
+                    <a class="btn btn-secondary btn-sm" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <button data-id="@item.Id" class="btn btn-danger btn-sm deleteBtn" type="button">Delete</button>
+                </div>
             </td>
         </tr>
 }
