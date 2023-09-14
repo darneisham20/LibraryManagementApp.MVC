@@ -1,0 +1,97 @@
+@model IEnumerable<LibraryManagementApp.MVC.Data.BooksFk>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Books 2</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Add Book</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OriginalTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SeriesTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublishDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genre)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OriginalTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SeriesTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublishDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                <div class="d-grid gap-2 ">
+                    <a class="btn btn-secondary btn-sm" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <button data-id="@item.Id" class="btn btn-danger btn-sm deleteBtn" type="button">Delete</button>
+                </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<form asp-action="Delete" id="bookfkDeleteForm">
+    <input type="hidden" id="bookfkid" name="Id" />
+</form>
+
+@section Scripts {
+    <script>
+        $(function() {
+            $('.table').DataTable();
+
+            $('.deleteBtn').click(function(e){
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                    }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire(
+                        'Deleted!',
+                        'Book has been deleted.',
+                        'success'
+                        )
+                        var btn = $(this);
+                        var id = btn.data("id");
+                        $('#bookfkid').val(id);
+                        $('#bookfkDeleteForm').submit();
+                    }
+                })
+            })
+        })
+    </script>
+}

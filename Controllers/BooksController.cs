@@ -21,9 +21,9 @@ namespace LibraryManagementApp.MVC.Controllers
         // GET: Books
         public async Task<IActionResult> Index()
         {
-              return _context.Books != null ? 
-                          View(await _context.Books.ToListAsync()) :
-                          Problem("Entity set 'LibraryManagementDbContext.Books'  is null.");
+            return _context.Books != null ? 
+                View(await _context.Books.ToListAsync()) :
+                Problem("Entity set 'LibraryManagementDbContext.Books'  is null.");
         }
 
         // GET: Books/Details/5

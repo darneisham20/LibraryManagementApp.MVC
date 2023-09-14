@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace LibraryManagementApp.MVC.Data;
 
@@ -15,4 +14,6 @@ public partial class Author
     public string? AboutAuthor { get; set; }
 
     public int? BookTotal { get; set; }
+
+    public virtual ICollection<BooksFk> BooksFks { get; set; } = new List<BooksFk>();
 }

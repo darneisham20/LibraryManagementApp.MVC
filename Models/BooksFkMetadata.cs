@@ -4,24 +4,24 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryManagementApp.MVC.Data;
 
-public class BookMetadata
+public class BooksFkMetadata
 {
     [Display(Name = "Original Title")]
-    public string BookTitle { get; set; } = null!;
+    public string OriginalTitle { get; set; } = null!;
 
     [Display(Name = "Series")]
-    public string? SeriesName { get; set; }
+    public string? SeriesTitle { get; set; }
 
     [Display(Name = "Author")]
-    public string Author { get; set; } = null!;
+    public int? AuthorId { get; set; }
 
     [Display(Name = "Publish Date")]
     [DataType(DataType.Date)]
-    public DateTime? OriginallyPublished { get; set; }
+    public DateTime? PublishDate { get; set; }
 
     [Display(Name = "Genre")]
-    public string? Genres { get; set; }
+    public string? Genre { get; set; }
 }
 
-[ModelMetadataType(typeof(BookMetadata))]
-public partial class Book{}
+[ModelMetadataType(typeof(BooksFkMetadata))]
+public partial class BooksFk{}

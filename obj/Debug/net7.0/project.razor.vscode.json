@@ -24135,6 +24135,31 @@
       "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\BooksFk\\Create.cshtml",
+      "TargetPath": "Views\\BooksFk\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\BooksFk\\Edit.cshtml",
+      "TargetPath": "Views\\BooksFk\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\BooksFk\\Details.cshtml",
+      "TargetPath": "Views\\BooksFk\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\BooksFk\\Delete.cshtml",
+      "TargetPath": "Views\\BooksFk\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DMProjects\\Personal_Projects\\LibraryManagementApp.MVC\\Views\\BooksFk\\Index.cshtml",
+      "TargetPath": "Views\\BooksFk\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

@@ -15,6 +15,8 @@ public partial class LibraryManagementDbContext : DbContext
 
     public virtual DbSet<Book> Books { get; set; }
 
+    public virtual DbSet<BooksFk> BooksFks { get; set; }
+
     public virtual DbSet<Publisher> Publishers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -37,6 +39,22 @@ public partial class LibraryManagementDbContext : DbContext
             entity.Property(e => e.Genres).HasMaxLength(100);
             entity.Property(e => e.OriginallyPublished).HasColumnType("date");
             entity.Property(e => e.SeriesName).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<BooksFk>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__BooksFK__3214EC07A0E61E89");
+
+            entity.ToTable("BooksFK");
+
+            entity.Property(e => e.Genre).HasMaxLength(100);
+            entity.Property(e => e.OriginalTitle).HasMaxLength(50);
+            entity.Property(e => e.PublishDate).HasColumnType("date");
+            entity.Property(e => e.SeriesTitle).HasMaxLength(50);
+
+            entity.HasOne(d => d.Author).WithMany(p => p.BooksFks)
+                .HasForeignKey(d => d.AuthorId)
+                .HasConstraintName("FK__BooksFK__AuthorI__49C3F6B7");
         });
 
         modelBuilder.Entity<Publisher>(entity =>
