@@ -47,7 +47,7 @@ namespace LibraryManagementApp.MVC.Controllers
         // GET: BooksFk/Create
         public IActionResult Create()
         {
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "Id", "Id");
+            CreateSelectLists();
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace LibraryManagementApp.MVC.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "Id", "Id", booksFk.AuthorId);
+            CreateSelectLists();
             return View(booksFk);
         }
 
@@ -81,7 +81,7 @@ namespace LibraryManagementApp.MVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "Id", "Id", booksFk.AuthorId);
+            CreateSelectLists();
             return View(booksFk);
         }
 
@@ -117,7 +117,7 @@ namespace LibraryManagementApp.MVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AuthorId"] = new SelectList(_context.Authors, "Id", "Id", booksFk.AuthorId);
+            CreateSelectLists();
             return View(booksFk);
         }
 
@@ -161,7 +161,16 @@ namespace LibraryManagementApp.MVC.Controllers
 
         private bool BooksFkExists(int id)
         {
-          return (_context.BooksFks?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.BooksFks?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+
+        private void CreateSelectLists()
+        {
+            var authors = _context.Authors.Select(q => new {
+                Fullname = $"{q.FirstName} {q.LastName}", 
+                q.Id
+            });
+            ViewData["AuthorId"] = new SelectList(authors, "Id", "Fullname");
         }
     }
 }
